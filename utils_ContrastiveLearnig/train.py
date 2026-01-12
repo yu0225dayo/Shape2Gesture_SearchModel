@@ -62,7 +62,7 @@ if __name__=="__main__":
         '--workers', type=int, help='number of data loading workers', default=4)
     parser.add_argument(
         '--nepoch', type=int, default=100, help='number of epochs to train for')
-    parser.add_argument('--outf', type=str, default='Contratstive_Parts2Gesturetest', help='output folder')
+    parser.add_argument('--outf', type=str, default='Contratstive_Parts2Gesture', help='output folder')
     parser.add_argument('--model', type=str, default='', help='model path')
     parser.add_argument('--dataset', type=str, default="dataset", help="dataset path")
     parser.add_argument('--feature_transform', action='store_true', help="use feature transform")
